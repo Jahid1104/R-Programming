@@ -43,3 +43,28 @@ print(A)
 fac = factor(c("Male", "Female", "Male",
                "Male", "Female", "Male", "Female"))
 print(fac)
+
+
+# Data frame formation
+
+ID <- c(1:5)
+Name <-c ("A","B","C","D","E")
+Date_of_Birth <-as.Date (c("1999-12-16","1999-12-16","1999-12-16","1999-12-16","1999-12-16"))
+
+df<-data.frame(ID,Name,Date_of_Birth)
+df
+Student_data <- df
+
+library("writexl")
+library(writexl)
+
+write_xlsx(Student_data,"Student_data.xlsx")
+Student_data
+
+#Data frame import
+
+library(readxl)
+
+library(readxl)
+Student_date <- read_excel("Student_date.xlsx")# copy the code from import promt
+View(Student_date)
