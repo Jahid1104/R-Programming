@@ -1,7 +1,9 @@
 
-# R Programming (Basic) by Md. Jahid Hasan Jone
-# Density Curve
+# Basic R Programming by Md. Jahid Hasan Jone
 
+###############################################################################
+################################ Density Curve ################################ 
+###############################################################################
 
 # load your dataset and renamed it data, iris data is used here
 data <- iris
