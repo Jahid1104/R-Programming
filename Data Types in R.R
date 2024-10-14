@@ -1,6 +1,3 @@
-####  R Codes by Md Jahid Hasan Jone
-
-
 #### In R, there are 6 basic data types:
     # logical, numeric, integer, complex, character, raw
 
@@ -57,22 +54,3 @@ print(x)
 print(class(x))      # print the class name of x
 print(typeof(x))     # print the type of x
 
-
-# Verify Data Type of an object
-
-print(is.logical(z))
-print(is.integer(y))
-print(is.numeric(10.5))
-print(is.complex(1+2i))
-print(is.character("12-04-2020"))
-print(is.integer("a"))
-print(is.numeric(2+3i))
-
-
-# convert data type of an object to another
-
-print(as.numeric(TRUE))         # Logical to numeric
-print(as.complex(3L))           # Integer to complex
-print(as.logical(10.5))         # Numeric to logical
-print(as.character(1+2i))       # Complex to character
-print(as.numeric("12-04-2020")) # Character to Numeric
